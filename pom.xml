@@ -60,7 +60,7 @@
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
-            <version>42.7.4</version>
+            <version>42.7.7</version>
         </dependency>
         <dependency>
             <groupId>com.ongres.scram</groupId>
@@ -305,7 +305,7 @@
         <dependency>
             <groupId>com.nimbusds</groupId>
             <artifactId>nimbus-jose-jwt</artifactId>
-            <version>9.47</version>
+            <version>10.0.2</version>
         </dependency>
     </dependencies>
     <build>
@@ -399,7 +399,7 @@
                                     <resource>META-INF/services/io.vertx.core.spi.VertxServiceProvider</resource>
                                 </transformer>
                             </transformers>
-                            <artifactSet></artifactSet>
+                            <artifactSet/>
                             <outputFile>${project.build.directory}/${project.artifactId}-dev-${project.version}-fat.jar</outputFile>
                         </configuration>
                     </execution>
@@ -432,7 +432,7 @@
                                     <resource>META-INF/services/io.vertx.core.spi.VertxServiceProvider</resource>
                                 </transformer>
                             </transformers>
-                            <artifactSet></artifactSet>
+                            <artifactSet/>
                             <outputFile>${project.build.directory}/${project.artifactId}-cluster-${project.version}-fat.jar</outputFile>
                         </configuration>
                     </execution>
