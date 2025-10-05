@@ -11,7 +11,7 @@
         <openjdk.version>21</openjdk.version>
         <hazelcast.version>4.0.2</hazelcast.version>
         <micrometer.version>1.14.1</micrometer.version>
-        <curator.version>5.7.1</curator.version>
+        <curator.version>5.9.0</curator.version>
         <junit-jupiter-engine.version>5.11.3</junit-jupiter-engine.version>
         <apache-log4j2.version>2.24.2</apache-log4j2.version>
         <lmax-disruptor.version>4.0.0</lmax-disruptor.version>
@@ -399,7 +399,7 @@
                                     <resource>META-INF/services/io.vertx.core.spi.VertxServiceProvider</resource>
                                 </transformer>
                             </transformers>
-                            <artifactSet></artifactSet>
+                            <artifactSet/>
                             <outputFile>${project.build.directory}/${project.artifactId}-dev-${project.version}-fat.jar</outputFile>
                         </configuration>
                     </execution>
@@ -432,7 +432,7 @@
                                     <resource>META-INF/services/io.vertx.core.spi.VertxServiceProvider</resource>
                                 </transformer>
                             </transformers>
-                            <artifactSet></artifactSet>
+                            <artifactSet/>
                             <outputFile>${project.build.directory}/${project.artifactId}-cluster-${project.version}-fat.jar</outputFile>
                         </configuration>
                     </execution>
