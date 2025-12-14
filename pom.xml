@@ -7,7 +7,7 @@
     <artifactId>iudx.catalogue.server</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <properties>
-        <vertx.version>4.5.11</vertx.version>
+        <vertx.version>4.5.22</vertx.version>
         <openjdk.version>21</openjdk.version>
         <hazelcast.version>4.0.2</hazelcast.version>
         <micrometer.version>1.14.1</micrometer.version>
@@ -399,7 +399,7 @@
                                     <resource>META-INF/services/io.vertx.core.spi.VertxServiceProvider</resource>
                                 </transformer>
                             </transformers>
-                            <artifactSet></artifactSet>
+                            <artifactSet/>
                             <outputFile>${project.build.directory}/${project.artifactId}-dev-${project.version}-fat.jar</outputFile>
                         </configuration>
                     </execution>
@@ -432,7 +432,7 @@
                                     <resource>META-INF/services/io.vertx.core.spi.VertxServiceProvider</resource>
                                 </transformer>
                             </transformers>
-                            <artifactSet></artifactSet>
+                            <artifactSet/>
                             <outputFile>${project.build.directory}/${project.artifactId}-cluster-${project.version}-fat.jar</outputFile>
                         </configuration>
                     </execution>
